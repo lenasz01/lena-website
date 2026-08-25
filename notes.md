@@ -25,3 +25,5 @@ POST - sends info
 
 # Error Handling
 `import HTTPException`
+
+`raise HTTPException(status_code=404, detail="Item not found")`
